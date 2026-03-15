@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-main",
+      "description": "Professional career growth concept",
+      "imageUrl": "https://picsum.photos/seed/vidya1/1200/600",
+      "imageHint": "career technology"
+    },
+    {
+      "id": "resume-eval",
+      "description": "Document analysis visual",
+      "imageUrl": "https://picsum.photos/seed/vidya2/600/400",
+      "imageHint": "resume review"
+    },
+    {
+      "id": "interview-sim",
+      "description": "Video call interview concept",
+      "imageUrl": "https://picsum.photos/seed/vidya3/600/400",
+      "imageHint": "online interview"
+    },
+    {
+      "id": "career-map",
+      "description": "Strategy and planning concept",
+      "imageUrl": "https://picsum.photos/seed/vidya4/600/400",
+      "imageHint": "path mapping"
+    }
+  ]
+}

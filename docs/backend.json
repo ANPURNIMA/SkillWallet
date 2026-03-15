@@ -1,0 +1,42 @@
+
+{
+  "entities": {
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "User account information including credits and project progress.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "displayName": { "type": "string" },
+        "credits": { "type": "number", "description": "Available AI credits." },
+        "completionStatus": { "type": "number", "description": "Project completion percentage." }
+      },
+      "required": ["uid", "credits"]
+    },
+    "ResumeEvaluation": {
+      "title": "Resume Evaluation",
+      "description": "Stored results of AI resume analysis.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "atsScore": { "type": "number" },
+        "feedback": { "type": "string" },
+        "identifiedSkills": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "auth": {
+    "providers": ["google.com"]
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profiles and account settings."
+    },
+    "/users/{userId}/evaluations/{evalId}": {
+      "schema": "ResumeEvaluation",
+      "description": "Historical resume evaluations for the user."
+    }
+  }
+}
