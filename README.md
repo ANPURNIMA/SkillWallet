@@ -7,17 +7,17 @@ VidyaMitra is a full-stack AI ecosystem designed to help students and profession
 By combining AI agents, NLP analysis, and a hybrid microservice backend, VidyaMitra provides real-time career intelligence and guided upskilling.
 
 🌟 Key Features
-📄 AI Resume Evaluator
+        📄 AI Resume Evaluator
 
-Analyze resumes using NLP and AI models to detect:
+        Analyze resumes using NLP and AI models to detect:
 
-Skill gaps
+        Skill gaps
 
-ATS compatibility score
+        ATS compatibility score
 
-Missing keywords
+        Missing keywords
 
-Career improvement suggestions
+        Career improvement suggestions
 
 🎤 AI Mock Interview Simulator
 
@@ -33,29 +33,29 @@ Response structure
 
 🧭 Career Roadmap Planner
 
-Generate personalized learning paths based on your current skills.
+        Generate personalized learning paths based on your current skills.
 
-Includes:
+        Includes:
 
-Recommended certifications
+        Recommended certifications
 
-Learning resources
+        Learning resources
 
-Industry skill requirements
+        Industry skill requirements
 
-Career transition guidance
+        Career transition guidance
 
 🪙 Skill Wallet & Credits
 
-A gamified system that tracks:
+        A gamified system that tracks:
 
-User progress
+        User progress
 
-AI usage credits
+        AI usage credits
 
-Skill achievements
+        Skill achievements
 
-Learning milestones
+        Learning milestones
 
 🏗️ Architecture
 
@@ -73,127 +73,127 @@ Python FastAPI AI Engine
 ⚙️ Tech Stack
 Frontend
 
-⚛️ React.js / Next.js
+        ⚛️ React.js / Next.js
 
-🎨 Tailwind CSS
+        🎨 Tailwind CSS
 
-🧩 Component-based architecture
+        🧩 Component-based architecture
 
 Backend
 
-🟢 Node.js + Express
+        🟢 Node.js + Express
 
-🐍 Python FastAPI
+        🐍 Python FastAPI
 
 AI & Data
 
-🧠 LangChain Agents
-
-🤖 OpenAI / LLM APIs
-
-📄 PDF Parsing & NLP
+        🧠 LangChain Agents
+        
+        🤖 OpenAI / LLM APIs
+        
+        📄 PDF Parsing & NLP
 
 Infrastructure
 
-☁️ Firebase / Cloud Hosting
-
-🔐 Authentication APIs
-
-📊 Dashboard Analytics
+        ☁️ Firebase / Cloud Hosting
+        
+        🔐 Authentication APIs
+        
+        📊 Dashboard Analytics
 
 🛠️ Project Development Workflow
 
-The development follows 5 major epics:
+        The development follows 5 major epics:
 
 1️⃣ Environment Setup
 
-Project initialization, dependency setup, and development environment configuration.
+        Project initialization, dependency setup, and development environment configuration.
 
 2️⃣ Backend API Development
 
-Building microservices using:
-
-Node.js API gateway
-
-Python FastAPI AI services
+        Building microservices using:
+        
+        Node.js API gateway
+        
+        Python FastAPI AI services
 
 3️⃣ AI Integration
 
-Implementation of:
-
-LangChain agents
-
-Resume analysis pipeline
-
-AI-driven interview evaluation
+        Implementation of:
+        
+        LangChain agents
+        
+        Resume analysis pipeline
+        
+        AI-driven interview evaluation
 
 4️⃣ Frontend Development
 
-Building the Skill Wallet dashboard and user interaction flows.
+        Building the Skill Wallet dashboard and user interaction flows.
 
 5️⃣ Testing & Deployment
 
-End-to-end integration testing
-
-Cloud deployment
-
-Performance optimization
+        End-to-end integration testing
+        
+        Cloud deployment
+        
+        Performance optimization
 
 🚀 Getting Started
-Prerequisites
+        Prerequisites
 
-Make sure you have installed:
+        Make sure you have installed:
 
-Node.js (v18+)
-Python (3.9+)
-Git
+        Node.js (v18+)
+        Python (3.9+)
+        Git
+        
+        Optional:
 
-Optional:
-
-OpenAI API Key
+                OpenAI API Key
 📦 Installation
-Clone the Repository
-git clone https://github.com/YOUR_USERNAME/VidyaMitra.git
-cd VidyaMitra
-Setup Python AI Backend
-cd backend/python
-pip install -r requirements.txt
-uvicorn main:app --reload
+        Clone the Repository
+        git clone https://github.com/YOUR_USERNAME/VidyaMitra.git
+        cd VidyaMitra
+        Setup Python AI Backend
+        cd backend/python
+        pip install -r requirements.txt
+        uvicorn main:app --reload
 
 Runs at:
-
-http://localhost:8000
-Setup Node.js API Gateway
-cd backend/node
-npm install
-npm start
-Start Frontend
-npm install
-npm run dev
-
-Runs at:
-
-http://localhost:3000
+        
+        http://localhost:8000
+        Setup Node.js API Gateway
+        cd backend/node
+        npm install
+        npm start
+        Start Frontend
+        npm install
+        npm run dev
+        
+        Runs at:
+        
+        http://localhost:3000
 📊 Future Enhancements
 
-AI career coaching assistant
-
-Resume auto-builder
-
-Company interview dataset integration
-
-Skill analytics dashboard
-
-Job recommendation engine
+        AI career coaching assistant
+        
+        Resume auto-builder
+        
+        Company interview dataset integration
+        
+        Skill analytics dashboard
+        
+        Job recommendation engine
 
 🤝 Contributing
 
-Contributions are welcome!
-
-If you'd like to improve VidyaMitra:
-
-Fork the repo
-
-Create a new branch
+        Contributions are welcome!
+        
+        If you'd like to improve VidyaMitra:
+        
+        Fork the repo
+        
+        Create a new branch
 
 Submit a pull request
