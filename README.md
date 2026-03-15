@@ -1,61 +1,199 @@
-VidyaMitra: The Intelligent Career Agent 🚀
-VidyaMitra is an AI-powered ecosystem designed to bridge the gap between education and employability. By leveraging a hybrid backend architecture, it provides students and professionals with real-time resume evaluation, AI-driven mock interviews, and personalized upskilling roadmaps.
+🚀 VidyaMitra — The Intelligent Career Agent
+
+AI-powered platform that bridges the gap between education and employability.
+
+VidyaMitra is a full-stack AI ecosystem designed to help students and professionals evaluate their skills, prepare for interviews, and build personalized career roadmaps.
+
+By combining AI agents, NLP analysis, and a hybrid microservice backend, VidyaMitra provides real-time career intelligence and guided upskilling.
 
 🌟 Key Features
-Scenario 1: AI Resume Evaluator – Scans resumes using NLP to identify skill gaps and provide an ATS-compatibility score.
+📄 AI Resume Evaluator
 
-Scenario 2: AI Mock Interviews – A simulator that provides realistic interview practice with instant feedback on tone and technical accuracy.
+Analyze resumes using NLP and AI models to detect:
 
-Scenario 3: Career Roadmap Planner – Analyzes current skills and generates a personalized certification and learning path for career transitions.
+Skill gaps
 
-Skill Wallet & Credits – A built-in gamification system to track progress and manage AI usage tokens.
+ATS compatibility score
 
-🏗️ Architecture & Tech Stack
-The platform follows a modern, scalable full-stack architecture:
+Missing keywords
 
+Career improvement suggestions
+
+🎤 AI Mock Interview Simulator
+
+Practice realistic interviews with AI that provides feedback on:
+
+Technical accuracy
+
+Communication quality
+
+Confidence level
+
+Response structure
+
+🧭 Career Roadmap Planner
+
+Generate personalized learning paths based on your current skills.
+
+Includes:
+
+Recommended certifications
+
+Learning resources
+
+Industry skill requirements
+
+Career transition guidance
+
+🪙 Skill Wallet & Credits
+
+A gamified system that tracks:
+
+User progress
+
+AI usage credits
+
+Skill achievements
+
+Learning milestones
+
+🏗️ Architecture
+
+VidyaMitra uses a hybrid microservices architecture to separate AI workloads from application logic.
+
+Frontend (React + Tailwind)
+        │
+        ▼
+Node.js API Gateway
+(Authentication, Credits, Dashboard)
+        │
+        ▼
+Python FastAPI AI Engine
+(Resume Analysis, LangChain Agents, AI Processing)
+⚙️ Tech Stack
 Frontend
-React.js: For a dynamic, responsive user interface and dashboard management.
 
-Tailwind CSS: For professional, "SkillWallet" themed styling.
+⚛️ React.js / Next.js
 
-Backend (Hybrid Microservices)
-Node.js & Express: Acts as the primary API Gateway, managing user authentication, "Skill Credits," and dashboard state.
+🎨 Tailwind CSS
 
-Python (FastAPI): The specialized AI Engine handling heavy lifting like PDF parsing, LangChain agents, and OpenAI API integrations.
+🧩 Component-based architecture
 
-🛠️ Project Workflow (The 5 Epics)
-Epic 1: Environment Setup – Project initialization and virtual environment configuration.
+Backend
 
-Epic 2: Backend API Development – Building core services using FastAPI and Node.js.
+🟢 Node.js + Express
 
-Epic 3: AI Integration – Implementing LangChain, OpenAI, and external skill-mapping APIs.
+🐍 Python FastAPI
 
-Epic 4: React.js Frontend – Developing the "Skill Wallet" dashboard and interactive scenarios.
+AI & Data
 
-Epic 5: Testing & Deployment – End-to-end integration testing and cloud deployment.
+🧠 LangChain Agents
+
+🤖 OpenAI / LLM APIs
+
+📄 PDF Parsing & NLP
+
+Infrastructure
+
+☁️ Firebase / Cloud Hosting
+
+🔐 Authentication APIs
+
+📊 Dashboard Analytics
+
+🛠️ Project Development Workflow
+
+The development follows 5 major epics:
+
+1️⃣ Environment Setup
+
+Project initialization, dependency setup, and development environment configuration.
+
+2️⃣ Backend API Development
+
+Building microservices using:
+
+Node.js API gateway
+
+Python FastAPI AI services
+
+3️⃣ AI Integration
+
+Implementation of:
+
+LangChain agents
+
+Resume analysis pipeline
+
+AI-driven interview evaluation
+
+4️⃣ Frontend Development
+
+Building the Skill Wallet dashboard and user interaction flows.
+
+5️⃣ Testing & Deployment
+
+End-to-end integration testing
+
+Cloud deployment
+
+Performance optimization
 
 🚀 Getting Started
 Prerequisites
-Node.js (v18+)
 
+Make sure you have installed:
+
+Node.js (v18+)
 Python (3.9+)
+Git
+
+Optional:
 
 OpenAI API Key
-
-Installation
-Clone the Repo
-
-Bash
-git clone https://github.com/your-username/VidyaMitra.git
-Setup Python Backend
-
-Bash
-cd backend-python
+📦 Installation
+Clone the Repository
+git clone https://github.com/YOUR_USERNAME/VidyaMitra.git
+cd VidyaMitra
+Setup Python AI Backend
+cd backend/python
 pip install -r requirements.txt
 uvicorn main:app --reload
-Setup Node.js Orchestrator
 
-Bash
-cd backend-node
+Runs at:
+
+http://localhost:8000
+Setup Node.js API Gateway
+cd backend/node
 npm install
 npm start
+Start Frontend
+npm install
+npm run dev
+
+Runs at:
+
+http://localhost:3000
+📊 Future Enhancements
+
+AI career coaching assistant
+
+Resume auto-builder
+
+Company interview dataset integration
+
+Skill analytics dashboard
+
+Job recommendation engine
+
+🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve VidyaMitra:
+
+Fork the repo
+
+Create a new branch
+
+Submit a pull request
